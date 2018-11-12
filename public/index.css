@@ -8,10 +8,6 @@
     text-decoration: none;
     z-index: 1;
 }
-.navbar ul li a{
-    transition:.3s;
-}
-
 .Skills{
     display:flex;
     flex-direction: row;
@@ -22,8 +18,10 @@
   .Skills .fas {
     color:white;
     font-size:4em;
-    margin-top:.4em;
-  }
+    padding: 0;
+    margin: 0;
+    margin-top: .5em;
+}
 
 .Skills ul p {
     color:white;
@@ -31,10 +29,13 @@
     font-weight: 600; 
     font-size: 1.7em;
     text-align: center;
-    margin:auto;
-    margin-top: 0em;
+    margin-top: 0;
     margin-right: 40px ;
     margin-bottom: 15px;
+  }
+
+  .Skills ul {
+      margin-top: 0 !important;
   }
 
 .Skills ul li {
@@ -43,15 +44,14 @@
     font-weight: 500; 
     list-style: none;
     text-align: center;
-    margin:auto;
     margin-left: -25px;
     margin-bottom: 15px;
+    margin-top: 0;
   }
 
 .border{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: rgb(14,28,65);
     border-radius: 20px;
@@ -199,6 +199,7 @@ body {
 
  img {
     margin: 20px;
+    margin-top: 80px;
     border-radius: 10%;
     width: auto;
     height: 80%;
@@ -206,6 +207,7 @@ body {
 
 .FlexRow{
     display:flex;
+    font-size: 1.2vw;
 }
 
 .FlexColumn{
@@ -220,7 +222,7 @@ body {
 
 .FlexRow ul li {
     margin: 20px;
-    font-size: 3vw;
+    font-size: 2vw;
     list-style:none;
     font-weight: bold;
 
